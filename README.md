@@ -25,63 +25,17 @@ This file contains a JSON object containing at least a
 
 ```json
 {
-  "copyright": "Tomas, http://tbaltrushaitis.com"
+   "copyright": "Baltrushaitis Tomas, http://tbaltrushaitis.com"
+ , "url": "http://tbaltrushaitis.com"
+ , "email": "tbaltrushaitis@gmail.com"
+ , "format": "txt"
+ , "gravatar": true
+ , "theme": "afterdark"
 }
 ```
+
 Means I can now link to: http://tbaltrushaitis.mit-license.org.
 
-### url
-
-```json
-{
-  "copyright": "Tomas, http://tbaltrushaitis.com",
-  "url": "http://tbaltrushaitis.com"
-}
-```
-
-### email
-
-```json
-{
-  "copyright": "Tomas, http://tbaltrushaitis.com",
-  "url": "http://tbaltrushaitis.com",
-  "email": "tomas@baltrushaitis.com"
-}
-```
-
-### format
-
-And if you want your license to appear as plain text, just add the
-`format` property (currently only `txt` and `html` are supported):
-
-```json
-{
-  "copyright": "Tomas, http://tbaltrushaitis.com",
-  "url": "http://tbaltrushaitis.com",
-  "format": "txt"
-}
-```
-
-### gravatar
-
-```json
-{
-  "copyright": "Tomas, http://tbaltrushaitis.com",
-  "url": "http://tbaltrushaitis.com",
-  "email": "tomas@baltrushaitis.com",
-  "gravatar": true
-}
-```
-
-### Themes
-
-```json
-{
-  "copyright": "Tomas, http://tbaltrushaitis.com",
-  "url":  "http://tbaltrushaitis.com",
-  "theme": "afterdark"
-}
-```
 
 Current available themes:
 
