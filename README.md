@@ -8,6 +8,18 @@ curl -d'{ "copyright": "Tomas", "url": "http://tomas.com", "email": "tomas@gmail
 
 ## The user.json file
 
+This file contains a JSON object containing at least a `copyright` property:
+
+```json
+{  "copyright": "Baltrushaitis Tomas, http://tbaltrushaitis.com"
+ , "url": "http://tbaltrushaitis.com"
+ , "email": "tbaltrushaitis@gmail.com"
+ , "format": "txt"
+ , "gravatar": true
+ , "theme": "afterdark"
+}
+```
+
 Available fields:
 
 * copyright (required)
@@ -17,21 +29,6 @@ Available fields:
 * gravatar
 * version
 * theme
-
-
-This file contains a JSON object containing at least a
-`copyright` property:
-
-```json
-{
-   "copyright": "Baltrushaitis Tomas, http://tbaltrushaitis.com"
- , "url": "http://tbaltrushaitis.com"
- , "email": "tbaltrushaitis@gmail.com"
- , "format": "txt"
- , "gravatar": true
- , "theme": "afterdark"
-}
-```
 
 Current available themes:
 
